@@ -10,6 +10,9 @@ on:
 
       - jenk
 
+  pull_request:
+    types: [opened, synchronize]  # Додає тригер для відкриття та оновлення PR
+
   workflow_dispatch:
 
  
